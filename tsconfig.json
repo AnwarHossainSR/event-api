@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "dist",
+        "baseUrl": "./src",
+        "paths": {
+            "@/resources/*": ["resources/*"],
+            "@/utils/*": ["utils/*"],
+            "@/middleware/*": ["middleware/*"]
+        },
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "sourceMap": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "types": ["node", "jest"]
+    }
+}
