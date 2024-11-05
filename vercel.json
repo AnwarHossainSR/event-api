@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "study-portal-api",
+    "name": "reservation-api",
     "builds": [{ "src": "dist/src/index.js", "use": "@vercel/node" }],
     "routes": [{ "src": "/(.*)", "dest": "dist/src/index.js" }]
 }
